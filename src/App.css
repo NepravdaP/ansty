@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .App {
   text-align: center;
 }
@@ -6,15 +7,13 @@
   height: 40vmin;
   pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: #f0d3d1;
+  color: #221e34;
+  font-family: 'Roboto', sans-serif;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,12 +26,66 @@
 .App-link {
   color: #61dafb;
 }
+.full-app {
+  min-height: 100vh;
+}
 
-@keyframes App-logo-spin {
+.bd-footer {
+  position: absolute;
+  bottom: 1%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-pic {
+  height: 100px;
+}
+
+/*  luft balloons */
+.dwizh {
+  height: 100vh;
+  position: absolute;
+  z-index: 10000;
+  overflow: hidden;
+}
+
+.gif-dance {
+  max-width: 100vw;
+  max-height: 40vh;
+  animation: dwizh 8s ease-in-out;
+}
+.gif-dance::after {
+  position: absolute;
+  top: 50%;
+}
+
+@keyframes dwizh {
   from {
-    transform: rotate(0deg);
+    transform: translateY(100vh);
   }
   to {
-    transform: rotate(360deg);
+    transform: translateY(-50vh);
   }
+}
+
+#modal-root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1002;
+}
+/*  luft balloons */
+.main-content {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.timer-block {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
