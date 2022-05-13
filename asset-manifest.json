@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ansty/static/css/main.be4ffc28.css",
-    "main.js": "/ansty/static/js/main.6290f1aa.js",
+    "main.js": "/ansty/static/js/main.9eebf487.js",
     "static/media/audi.mp3": "/ansty/static/media/audi.693cd9e996292a0f9ad5.mp3",
     "static/media/gifNepravda.gif": "/ansty/static/media/gifNepravda.055496cd24c4699f8f86.gif",
     "index.html": "/ansty/index.html",
     "main.be4ffc28.css.map": "/ansty/static/css/main.be4ffc28.css.map",
-    "main.6290f1aa.js.map": "/ansty/static/js/main.6290f1aa.js.map"
+    "main.9eebf487.js.map": "/ansty/static/js/main.9eebf487.js.map"
   },
   "entrypoints": [
     "static/css/main.be4ffc28.css",
-    "static/js/main.6290f1aa.js"
+    "static/js/main.9eebf487.js"
   ]
 }
